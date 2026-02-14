@@ -52,8 +52,9 @@ yesBtn.addEventListener('click', () => {
 function showFinalScreen() {
     contentWrapper.innerHTML = `
         <div class="final-container">
-            <h1 class="final-main">I love you my baby</h1>
+            <h1 class="final-main">Happy Valentines Dayyyy</h1>
             <p class="final-sub">Kiss</p>
+            <p class="final-sub">I love you my baby</p>
         </div>`;
     for (let i = 0; i < 100; i++) {
         const c = document.createElement('div');
