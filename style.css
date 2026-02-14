@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gaegu:wght@400;700&display=swap');
+
+body {
+    background-color: #F08080;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.text-wrapper { text-align: center; }
+
+.nickname {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.sub-question {
+    font-family: 'Gaegu', cursive;
+    font-size: 2.2rem;
+    color: #8B0000;
+    margin-top: 10px;
+}
+
+.button-group { margin-top: 30px; display: flex; justify-content: center; gap: 20px; }
+
+.cute-btn {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-family: 'Gaegu', cursive;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s, all 0.2s ease;
+}
+
+#yesBtn { background-color: #FFFACD; color: #8B4513; }
+#noBtn { background-color: #8B0000; color: white; position: relative; }
+
+.woohoo-text { font-family: 'Dancing Script', cursive; font-size: 4rem; color: #FFE4E1; margin-bottom: 10px; }
+.cute-note { font-family: 'Gaegu', cursive; font-size: 1.2rem; color: #FFFFFF; }
+.valentine-final { font-family: 'Dancing Script', cursive; font-size: 4.5rem; color: #8B0000; }
+.final-main { font-family: 'Dancing Script', cursive; font-size: 6rem; color: #FFFFFF; }
+.final-sub { font-family: 'Gaegu', cursive; font-size: 3rem; color: #8B0000; }
+
+.confetti { position: absolute; width: 10px; height: 10px; top: -10px; animation: fall 3s linear forwards; }
+@keyframes fall { to { transform: translateY(100vh) rotate(360deg); } }
