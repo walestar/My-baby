@@ -55,6 +55,7 @@ function showFinalScreen() {
             <h1 class="final-main">Happy Valentines Dayyyy</h1>
             <p class="final-sub">Kiss</p>
             <p class="final-sub">I love you my baby</p>
+            <p>"Just going to assume you said yes btw lmaoo"</p>
         </div>`;
     for (let i = 0; i < 100; i++) {
         const c = document.createElement('div');
